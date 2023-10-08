@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Function</title>
+  </head>
+  <body>
+    <script>
+
+      function myscore() {
+        let name = "Khoirul";
+        let nilai = 70;
+
+        if (nilai > 80 && nilai < 100) {
+          document.writeln(
+            `Halo nama saya ${name}, saya berhasil mendapatkan <b>nilai yang sangat bagus</b> pada pelajaran Javascript. Nilai saya adalah ${nilai}`
+          );
+        } else if (nilai > 70 && nilai < 80) {
+          document.writeln(
+            `Halo nama saya ${name}, saya berhasil mendapatkan <b>nilai bagus</b> pada pelajaran Javascript nilai saya adalah ${nilai}`
+          );
+        } else {
+          document.writeln(
+            `Halo nama saya ${name}, saya mendapatkan <b>nilai yang jelek</b> pada pelajaran Javascript nilai saya adalah ${nilai}`
+          );
+        }
+      }
+      myscore();
+    </script>
+  </body>
+</html>
